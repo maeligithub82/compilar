@@ -1,0 +1,151 @@
+/* CSS Document
+DESCRIPCION: Hoja de Estilo LDM Fisica
+AUTOR: Uriel Vargas Barajas
+CONTROL DE CAMBIOS:
+	15/Marzo/2009 - Creacion
+	
+*/
+@import url("../../../tipografia.css");
+
+body {
+	background-image: url(../img/LdmBiologiaFondoTabla.jpg);
+	background-repeat: repeat-x;
+	background-attachment:fixed;
+	background-color: #99FE00;
+    font-family: 'Muli-Regular';
+	font-size:14px;
+	text-align:justify;
+	color:#000;
+}
+
+.tituloSeccionPractica {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	background-color:#A7FF97;
+}
+
+.contenidoPractica {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+
+.subIndice {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: sub;	
+}
+
+.superIndice {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: super;	
+}
+
+.tituloPractica {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 17px; 
+	font-weight: bold; 
+	color: #FFFFFF; 
+}
+
+.tituloImagen {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666
+}
+.notaImagen {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666
+}
+
+
+.encabezadoTablaPOPUP {
+	font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #FFFFFF;
+	text-align:center;
+	background-color:#00FB30; }
+
+
+.contenidoTablaPOPUP {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-align:center;
+}
+.material {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align:justify;
+}
+
+table.tablapopup {
+	border-spacing:1px;
+	border: 1px solid #00FB30;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-right-color: #00FB30;
+	border-left-color:#00FB30;
+	border-top-color: #00FB30;
+	border-bottom-color:  #00FB30;
+	margin:auto;
+	
+}
+
+.bordecelda {
+	border: 1px solid #00FB30;
+}
+
+
+.ligaPopUp A:link {text-decoration: underline; color: #003300;}
+.ligaPopUp A:visited {text-decoration: none;color: #003300;}
+.ligaPopUp A:active {text-decoration: none;color: #003300;}
+.ligaPopUp A:hover {text-decoration: none;color:#666666;}
+
+
+/*ESTILOS DE LOS MANUALES DE CONTENIDO*/
+#container {
+	width:900px;
+	height:760px;
+	overflow:auto;
+	margin:0 auto;
+}
+.tituloPractica1 {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 17px; 
+	font-weight: bold; 
+	color: #FFFFFF;
+	text-align:center;
+}
+.centrar {
+	text-align:center;
+}
+
+
+.sangria{
+	padding-left:30px;
+}
+.sangria_doble{
+	padding-left:50px;
+}
+
+.negritas{
+	font-weight:bolder;
+}
+
+
+
+
+
+
+
+
+

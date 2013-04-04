@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:url(../img/bg_main.jpg);
+}
+
+#container{
+	width:1024px;
+	margin: 0 auto;
+	background-color:#C90;
+	
+}
+#img{
+	width:738px;
+	height:757px;
+	float:left;
+	margin:0 0 0 112px;	
+}
+
+#salir{
+	width:51px;
+	height:50px;
+	float:left;
+	margin-top:400px;
+	margin-left:10px;
+	
+}
+
+
